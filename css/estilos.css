@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+  
+  /*variables*/
+  :root{
+    /*colores*/
+    --blue-color: rgba(0,48, 87, 0.9);
+    --yellow-color:rgba(242, 169, 0, 0.9);
+    --gray-color:rgba(178, 178, 179, 0.9);
+    --red-color: red;
+    --white-color: white;
+    /*espaciado*/
+    --space: 10px;
+    /*Box shadow*/
+    --box:0 0 4px rgba(242, 169, 0, 0.9);
+
+  }
+  
+  html, body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  nav {
+    background: var(--blue-color);
+    padding: var(--space);
+    color: var(--yellow-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+
+  nav li {
+    padding-right: var(--space);
+  }
+
+  nav li a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--yellow-color);
+  }
+
+  nav li a:hover {
+    color: var(--gray-color);
+  }
+
+  .logo-unisalle img {
+    width: 200px;
+    padding: 5px;
+  }
+
+  /*MAIN*/
+
+  .main-section h1 {
+    color: var(--yellow-color);
+  }
+
+  .main-section h2 {
+    color:var(--blue-color);
+  }
+
+  .main-section {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .products {
+    background-color: #f6f6f6;
+    max-height: 150px;
+    background-position: center;
+    padding: 150px;
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 20px;
+
+ 
+  }
+
+  .product {
+    padding: var(--space);
+    margin-top: -100px;
+  }
+   
+  .product .content {
+    background-color: white;
+    padding: 20px;
+    box-shadow: var(--box);
+  }
+
+  .img-content {
+    text-align: center;
+  }
+
+  .content img {
+    width: 200px;
+  }
+
+  .content p {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .main-button {
+    text-decoration: none;
+    background-color:var(--blue-color);
+    color: var(--yellow-color);
+    padding: var(--space);
+    border-radius: var(--space);
+    border:0px;
+    cursor: pointer;
+    
+  }
+
+  .main-button:hover {
+    background-color:var(--red-color);
+    color:var(--white-color);
+  }
+
+  /*Advantage*/
+
+  .advange {
+    max-width: 100%;
+    max-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+  }
+
+  .advange h3 {
+    color: var(--yellow-color);
+    font-size: 20px;
+  }
+
+  .advange p {
+    color: var(--blue-color);
+    text-align: center;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+
+  .img-advange{
+    width: 200px;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  .tecnology .personal .academics{
+    justify-items: center;
+    align-items: center;
+    padding-left: 10px;
+  }
+
+  /*Mentions*/
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
