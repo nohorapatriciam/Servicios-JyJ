@@ -6,8 +6,11 @@
     --blue-color: rgba(0,48, 87, 0.9);
     --yellow-color:rgba(242, 169, 0, 0.9);
     --gray-color:rgba(178, 178, 179, 0.9);
-    --red-color: red;
+    --red-color: rgba(147, 39, 44, 0.9);
     --white-color: white;
+    --blue-color2: rgba(0, 106, 142, 0.9);
+    --yellow-color2: rgba(218.170.0);
+    --black-color: rgba(60, 60, 50, 0.9);
     /*espaciado*/
     --space: 10px;
     /*Box shadow*/
@@ -125,44 +128,74 @@
     color:var(--white-color);
   }
 
-  /*Advantage*/
+  /*Beneficios*/
 
-  .advange {
-    max-width: 100%;
-    max-height: 200px;
+  .beneficios {
     display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 100px;
+    padding: 7%;
   }
 
-  .advange h3 {
-    color: var(--yellow-color);
-    font-size: 20px;
-  }
-
-  .advange p {
-    color: var(--blue-color);
+  .beneficio {
     text-align: center;
-    padding: 0 10px;
-    font-size: 12px;
+    padding: 20px;
   }
 
-  .img-advange{
-    width: 200px;
-    align-items: center;
-    border-radius: 20px;
+  .beneficio img {
+    max-height: 150px;
+    border-radius: 5px;
   }
 
-  .tecnology .personal .academics{
-    justify-items: center;
-    align-items: center;
-    padding-left: 10px;
+  .text_beneficio {
+    text-align: justify;
   }
 
-  /*Mentions*/
+  .beneficio h3 {
+    color: var(--blue-color2);
+  }
+
+  .beneficio p {
+    color: var(--black-color);
+  }
+
+
+  /*Menciones*/
+
+  .mentions {
+    display: flex;
+    padding: 3%;
+  }
+
+  .mention {
+    padding: var(--space);
+  }
+
+  .mention img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 70px;
+  }
+
+  /*Footer*/
+
+  footer {
+    background: var(--blue-color);
+    padding: var(--space);
+    display: flex;
+    justify-content: space-around;
+    font-size: var(--normal);
+  }
+
+  footer a {
+    color: var(--yellow-color);
+  }
 
   
+
+  footer li a:hover {
+    color: var(--gray-color);
+  }
+
+
 
 
 
