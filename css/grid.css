@@ -1,0 +1,125 @@
+:root{
+  /*colores*/
+  --blue-color: rgba(0,48, 87, 0.9);
+  --yellow-color:rgba(242, 169, 0, 0.9);
+  --gray-color:rgba(178, 178, 179, 0.9);
+  --red-color: rgba(147, 39, 44, 0.9);
+  --white-color: white;
+  --blue-color2: rgba(0, 106, 142, 0.9);
+  --yellow-color2: rgba(218.170.0);
+  --black-color: rgba(60, 60, 50, 0.9);
+  /*espaciado*/
+  --space: 10px;
+  /*Box shadow*/
+  --box:0 0 4px rgba(242, 169, 0, 0.9);
+
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+}
+
+.row {
+  display:flex;
+}
+
+.col-1 {
+  width: calc(100% / 12);
+}
+
+.col-2 {
+  width: calc(100% / 12 * 2);
+}
+.col-3 {
+  width: calc(100% / 12 * 3);
+}
+.col-4 {
+  width: calc(100% / 12 * 4);
+}
+.col-5 {
+  width: calc(100% / 12 * 5);
+}
+.col-6 {
+  width: calc(100% / 12 * 6);
+}
+.col-7 {
+  width: calc(100% / 12 * 7);
+}
+.col-8 {
+  width: calc(100% / 12 * 8);
+}
+.col-9 {
+  width: calc(100% / 12 * 9);
+}
+.col-10 {
+  width: calc(100% / 12 * 10);
+}
+.col-11 {
+  width: calc(100% / 12 * 11);
+}
+.col-12 {
+  width: calc(100% / 12 * 12);
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  padding: 10px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: var(--blue-color);
+}
+
+.container h2 {
+  color: var(--yellow-color);
+}
+
+.container p {
+  color:var(--black-color);
+}
+
+.container-hematologia{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.img-hematologia {
+  text-align: center;
+}
+
+
+.img-hematologia img{
+  width: 250px;
+  justify-items: center;
+}
+
+.description-hematologia {
+  text-align: left;
+}
+
+/*Pruebas Rápidas*/
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  .row {
+    display: inherit;
+  }
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    width: 100%;
+  }
+  
+
+}
