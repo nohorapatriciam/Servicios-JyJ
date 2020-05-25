@@ -127,12 +127,14 @@
     border-radius: var(--space);
     border:0px;
     cursor: pointer;
+    width: 100%;
     
   }
 
   .main-button:hover {
     background-color:var(--red-color);
     color:var(--white-color);
+
   }
 
   /*Beneficios*/
@@ -230,11 +232,16 @@
  
   }
 
-  .modulo-pago input {
+  .modulo-pago .main-button {
+    margin-top: 20px;
+  }
+
+  .data {
     margin-top: 10px;
     width: 100%;
     height: 35px;
     border: 1px solid var(--black-color);
+    box-sizing: border-box;
   }
 
    /*Formulario*/
