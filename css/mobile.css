@@ -1,0 +1,60 @@
+
+@media screen and (max-width: 767px) {
+  .products {
+    display: inherit;
+    height: auto;
+    padding: 10px;
+  }
+
+  .product {
+    margin-top: auto;
+  }
+
+  .main-section {
+    padding: 5%;
+  }
+
+  .beneficios {
+    display: flex;
+    flex-direction: column;
+    margin-top: 110%;
+    text-align: center;
+  }
+
+  .beneficios p {
+    text-align: center;
+  }
+
+  .mentions, nav, footer{
+    display: inherit;
+  }
+
+}
+  /*.header{
+      display: block;
+  }*/
+  /*.header{
+      border: solid blue 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  /*body{
+      border: 10px solid yellow;
+  }*/
+  /*.header{
+      border: solid yellow 10px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  /*body{
+      border: 10px solid blue;
+  }*/
+  /*.header{
+      border: solid green 10px;
+  }
+  
+}
