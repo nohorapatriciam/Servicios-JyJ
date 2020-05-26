@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(203,51,59);
+}
+
+ 
+
+.content-paypal {
+  background-color: var(--black-color);
+}
+
+.content-paypal h3 {
+  color: rgba(0,169,224, 0.9);
+  
+}
+
+.content-paypal p {
+  color: #fff;
+} 
+
+.content-paypal a {
+  color: var(--yellow-color);
+}
+
+
