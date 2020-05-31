@@ -33,7 +33,7 @@
 
 
   nav {
-    background: var(--blue-color);
+    background: var(--white-color);
     padding: var(--space);
     color: var(--yellow-color);
     display: flex;
@@ -82,7 +82,7 @@
   }
 
   .products {
-    background-color: #f6f6f6;
+    background-color:var(--white-color);
     max-height: 150px;
     background-position: center;
     padding: 150px;
@@ -141,7 +141,6 @@
 
   .beneficios {
     display: flex;
-    padding: 7%;
   }
 
   .beneficio {
@@ -245,6 +244,11 @@
   }
 
    /*Formulario*/
+
+
+   .description-hematologia p {
+     margin-bottom: 40px;
+   }
 
 
 

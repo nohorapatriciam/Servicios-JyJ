@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 780px) {
   .products {
     display: inherit;
     height: auto;
@@ -12,13 +12,15 @@
 
   .main-section {
     padding: 5%;
+    margin-right:0px;
   }
 
   .beneficios {
     display: flex;
     flex-direction: column;
-    margin-top: 110%;
+    margin-top: 140%;
     text-align: center;
+
   }
 
   .beneficios p {
@@ -29,32 +31,55 @@
     display: inherit;
   }
 
-}
-  /*.header{
-      display: block;
-  }*/
-  /*.header{
-      border: solid blue 10px;
+  .option {
+    text-align: center;
   }
+
 }
 
+  @media screen and (max-width: 490px) {
 
-@media screen and (max-width: 480px) {
-  /*body{
-      border: 10px solid yellow;
-  }*/
-  /*.header{
-      border: solid yellow 10px;
+    .beneficios {
+      display: inherit;
+      width: auto;
+      flex-direction: inherit;
+      margin-top: 130%;
+      text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width: 489px) and (min-width: 320px) {
+  .beneficios {
+    display: inherit;
+    height: inherit;
+    
   }
+
+  .nav-options ul{
+    display: inherit;
+    height: inherit;
+}
+
+  .nav-options ul li{
+    height: inherit;
 }
 
 
-@media screen and (max-width: 320px) {
-  /*body{
-      border: 10px solid blue;
-  }*/
-  /*.header{
-      border: solid green 10px;
-  }
+
+  @media screen and (max-width: 319px) and (min-width: 280px) {
+
+    .beneficios {
+      display: inherit;
+      height: inherit;
+      
+    }
   
-}
+    .nav-options {
+      visibility: hidden;
+    }
+
+
+  
+
